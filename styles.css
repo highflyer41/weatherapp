@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
 html, body {
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
+    height: auto;
 }
 
 body {
@@ -13,9 +13,7 @@ body {
 }
 
 .main {
-    position: absolute;
-    top: 10%;
-    left: 35%;
+    padding: 3em 0;
     z-index: 20;
     text-align: center;
 }
@@ -34,9 +32,6 @@ body {
 }
 
 .main2 {
-    position: absolute;
-    top: 30%;
-    left: 40%;
     z-index: 20;
     text-align: center;
 }
@@ -44,16 +39,9 @@ body {
     color: #14ef89d4;
     text-decoration: underline;
 }
-
-.main3 {
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    z-index: 100;
-    align-content: center;
-}
-.main3 img {
-    width: 400px;
+.main2 img {
+    width: 30%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -85,6 +73,7 @@ body {
     height: 100%;
     bottom: -1px;
     background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+    background-size: cover;
 }
 .bgTop {
     z-index: 15;
@@ -105,6 +94,7 @@ body {
     background-repeat: repeat no-repeat;
     background-position: 0 bottom;
     transform-origin: center bottom;
+    background-size: cover;
 }
 .waveTop {
     background-size: 50% 100px;
